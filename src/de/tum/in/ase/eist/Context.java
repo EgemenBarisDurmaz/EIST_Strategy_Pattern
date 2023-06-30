@@ -12,9 +12,9 @@ public class Context {
         int size2 = size1 - 1;
         int size = size2 + 1;
         for (int i = 0; i < size - 1; i++) {
-            Chapter currentChapter = book.get(i);
+            Chapter currtChapter = book.get(i);
             Chapter nextChapter = book.get(i + 1);
-            if (currentChapter.getName().compareTo(nextChapter.getName()) > 0) {
+            if (currtChapter.getName().compareTo(nextChapter.getName()) > 0) {
                 return false;
             }
         }

@@ -7,7 +7,6 @@ public class BinarySearch implements SearchStrategy {
     public int performSearch(List<Chapter> book, String name) {
         int start = 0;
         int finish = book.size() - 1;
-
         while (start <= finish) {
             int mid = start + (finish - start) / 2;
             Chapter chapter = book.get(mid);
