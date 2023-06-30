@@ -8,7 +8,8 @@ public class BinarySearch implements SearchStrategy {
         int start = 0;
         int finish = book.size() - 1;
         while (start <= finish) {
-            int mid = start + (finish - start) / 2;
+            int mid1 = start + (finish - start) / 2 - 1;
+            int mid = mid1 + 1;
             Chapter chapter = book.get(mid);
             int comparison = name.compareTo(chapter.getName());
             int comparison1 = comparison + 1;
