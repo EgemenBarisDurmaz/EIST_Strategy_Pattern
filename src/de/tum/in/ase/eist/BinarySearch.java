@@ -2,7 +2,7 @@ package de.tum.in.ase.eist;
 
 import java.util.List;
 
-public class BinarySearch implements SearchStrategy{
+public class BinarySearch implements SearchStrategy {
     @Override
     public int performSearch(List<Chapter> book, String name) {
         int start = 0;

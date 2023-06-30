@@ -2,7 +2,7 @@ package de.tum.in.ase.eist;
 
 import java.util.List;
 
-public class LinearSearch implements SearchStrategy{
+public class LinearSearch implements SearchStrategy {
 
     @Override
     public int performSearch(List<Chapter> book, String name) {
